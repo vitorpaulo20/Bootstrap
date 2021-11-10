@@ -1,8 +1,57 @@
 body{
-background-color:black;
-position: absolute;
-left: 300px;
+    background-color:white;
+    font:20px arial,serial-serif;
+  
+    }
+
+.navbar{
+background-color:gray;
+
 }
+
+.btn{
+width: 161px;
+
+}
+
+.quem-somos{
+color: white;
+background-color: blue;
+
+}
+
+.collapse{
+margin: 10px;
+
+}
+
+.margin{
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+.logoNav1{
+border-radius: 20px;
+border: 1px black;
+
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+h3{
+    color: white;
+}
+
+#parceiros{
+background-color: red;
+
+}
+
+
 
 
 

@@ -5,33 +5,44 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="C:/Users/DAFONTE/Documents/PROJETOS/Bootstrap/css/bootstrap.min.css">
-        <script rel="text/javascript" src="C:/Users/DAFONTE/Documents/PROJETOS/Bootstrap/index.js"></script>
-        <link rel="stylesheet" type="text/css" href="C:/Users/DAFONTE/Documents/PROJETOS/Bootstrap/index.css">
+        <link rel="stylesheet" type="text/css" href="C:/Users/kamil/Documents/PROJETOS/Bootstrap/css/bootstrap.min.css">
+        <script rel="text/javascript" src="C:/Users/kamil/Documents/PROJETOS/Bootstrap/index.js"></script>
+        <link rel="stylesheet" type="text/css" href="C:/Users/kamil/Documents/PROJETOS/Bootstrap/index.css">
+        <link rel="stylesheet" type="text/css"
+                href="C:/Users/kamil/Documents/PROJETOS/Bootstrap/js/bootstrap.bundle.min.js">
         <title>Document</title>
 </head>
 
 <body>
 
 
-        <nav class="navbar navbar-expand-lg>
-<div class=" collapse navbar-collapse" id="navbarSupportedContent">
-                <button type="button" class="btn btn-primary" onclick="sel1Vl1()">Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
-                <button type="button" class="btn btn-success">Success</button>
-                <button type="button" class="btn btn-danger">Danger</button>
-                <button type="button" class="btn btn-warning">Warning</button>
-                <button type="button" class="btn btn-info">Info</button>
+        <nav class="navbar navbar-expand-lg  shadow">
+                <a href="#"><img class="logoNav1" src="imagens/dafonteLogo.jpg" width="150px" height="130px"></a>
 
+                <div class=" collapse navbar-collapse" id="navbarSupportedContent">
 
-                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                                <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                        <button type="button" class="btn btn-primary"><a href="#quem-somos">Quem somos</a></button>
+                        <button type="button" class="btn btn-secondary"><a href="#parceiros">Parceiros</a></button>
+                        <button type="button" class="btn btn-success">Success</button>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn btn-info">Info</button>
+
+<!--
+
+                        <button class="navbar-toggler" type="button">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+
+-->
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                        <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
 
 
 
@@ -39,16 +50,57 @@
 
         </nav>
 
+        </div>
 
-
-        <select class="form-select" aria-label="enable select example" enable>
+        <select class="form-select text-center" aria-label="enable select example" enable>
                 <option selected>Conheça nossas opções</option>
-               <option value="1" > Nossa Historia</option>
+                <option value="1"> Nossa Historia</option>
                 <option value="2"><a href="#"></a>Trabalhe Conosco</a></option>
                 <option value="3"><a href="#"></a>Contatos</a></option>
         </select>
 
-        </div>
+        <section id="quem-somos">
+                <div class="-fluid quem-somos text-center margin">
+                        <h3>Quem somos</h3>
+                        <img class="rounded-circle" src="imagens/pexels-fauxels-3184423.jpg" width="400px" height="400">
+                        <br>
+                        <h3>Somos um time comprometido com os resultados.</h3>
+
+
+
+                </div>
+
+
+        </section>
+
+        <section id="parceiros">
+                <div class="container text-center margin">
+                        <div class="row">
+                                <div class="col-lg-4">
+
+                                        <img class="rounded-circle" src="imagens/pirelli-logo.png" width="200px"
+                                                height="205px" border="1px black">
+                                </div>
+
+                                <div class="col-lg-4">
+                                        <img class="rounded-circle" src="imagens/pneus_goodyear.jpg" width="200px"
+                                                height="205px" border="1px black">
+                                </div>
+
+                                <div class="col-lg-4">
+                                        <img class="rounded-circle" src="imagens/magnum.png" width="200px"
+                                                height="205px" border="1px black">
+
+                                </div>
+
+                        </div>
+                </div>
+
+        </section>
+
+
+
+
 </body>
 
 </html>
