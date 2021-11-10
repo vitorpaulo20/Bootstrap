@@ -1,9 +1,6 @@
 function sel1Vl1(){
-
     alert("Teste de função !!! ");
-
 }
-
 function changeFunc($i) {
     if ($i == '1'){
         window.open('https://olhardigital.com.br/','_blank');
@@ -12,5 +9,4 @@ function changeFunc($i) {
     }else if($i == '3'){
         window.open('https://news.google.com/topstories?hl=pt-BR&gl=BR&ceid=BR:pt-419','_blank');
     }
-
 }

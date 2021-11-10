@@ -14,7 +14,7 @@
         <link rel="stylesheet" type="text/css"
                 href="C:/Users/DAFONTE/Documents/PROJETOS/Dafonte Site/Bootstrap/js/bootstrap.bundle.min.js ">
 
-            
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -38,18 +38,17 @@
                         text-decoration: none;
                 }
 
-                select{
-                background-color: #6DCAFC;
-                border: 5px black;
+                select {
+                        background-color: #6DCAFC;
+                        border: 5px black;
                 }
-
         </style>
 
 </head>
 
 <body>
 
-
+        <!--NAVBAR INICIO -->
         <nav class="navbar navbar-expand-lg  shadow">
                 <a href="#"><img class="logoNav1" src="imagens/dafonteLogo.jpg" width="150px" height="130px"></a>
 
@@ -60,7 +59,7 @@
 
                         <button type="button" class="btn btn-secondary"><a href="#parceiros">Parceiros</a></button>
 
-                       
+                <!-- BOTÃO DO MODAL SIDEBAR-->
                         <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 class="btn btn-success">Contatos</button>
 
@@ -83,36 +82,45 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
 
-
+                </div>
 
 
 
         </nav>
+        <!--NAVBAR FINAL-->
 
-        </div>
 
-        <select id="link"  onchange="changeFunc(value);" class="form-select text-center" aria-label="enable select example" enable>
+
+       
+        <!--SELECT DE LINKS ABAIXO DA NAVBAR ASSOCIADA A FUNÇÃO CHAGEFUNC PASSANDO VALUE JS-->
+        <select id="link" onchange="changeFunc(value);" class="form-select text-center"
+                aria-label="enable select example" enable>
                 <option selected>Conheça nossas opções</option>
                 <option value="1">Nossa Historia</option>
                 <option value="2">Trabalhe Conosco</option>
                 <option value="3">Contatos</option>
         </select>
-      
+
+
+        <!--DIVISÃO DO SITE EM SEÇÕES ESSA É A GRANDE CARROSSEL UNICO-->
         <section id="quem-somos">
                 <div class="-fluid quem-somos text-center margin">
                         <h3>Quem somos</h3>
                         <img class="rounded-circle" src="imagens/pexels-fauxels-3184423.jpg" width="400px" height="400">
                         <br>
                         <p><i>
-                                Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula manquis sem cabeça. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Manduma pindureta quium dia nois paga.
+                                        Mussum Ipsum, cacilds vidis litro abertis. Leite de capivaris, leite de mula
+                                        manquis sem cabeça. Mauris nec dolor in eros commodo tempor. Aenean aliquam
+                                        molestie leo, vitae iaculis nisl. Em pé sem cair, deitado sem dormir, sentado
+                                        sem cochilar e fazendo pose. Manduma pindureta quium dia nois paga.
 
-                        </i></p>
+                                </i></p>
 
 
 
                 </div>
 
-
+     <!--DIVISÃO DO SITE EM SEÇÕES ESSA É DIVIDIDA CARROSSEL TRIPLO EM UMA UNIDA SESSÃO-->
         </section>
 
         <section id="parceiros">
@@ -137,8 +145,11 @@
                                 </div>
 
                                 <p><i>
-                                        Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é. Viva Forevis aptent taciti sociosqu ad litora torquent. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.
-                                 </i></p>
+                                                Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa
+                                                gentis num é. Viva Forevis aptent taciti sociosqu ad litora torquent.
+                                                Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque,
+                                                eget. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis.
+                                        </i></p>
 
                         </div>
                 </div>
@@ -148,7 +159,7 @@
 
 
 
-        <!-- Modal sidebar -->
+        <!-- MODAL SIDEBAR -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen">
                         <div class="modal-content">
@@ -158,8 +169,8 @@
                                                 aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                       <label>Loja 01 Jaboatão-</label>
-                                       <b>(81)3518-5933</b>
+                                        <label>Loja 01 Jaboatão-</label>
+                                        <b>(81)3518-5933</b>
                                 </div>
                                 <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
