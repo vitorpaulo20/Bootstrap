@@ -1,37 +1,72 @@
-body{
-background-color:white;
-font:20px arial,serial-serif;
-}
-.navbar{
-background-color:#28D2FF;
-}
-.btn{
-width: 180px;
-color: white;
-}
+
 .quem-somos{
-color: white;
-background-color: blue;
+    color: white;
+    background-color: blue;
+    }
+h5{
+color: black;
 }
-.collapse{
-margin: 10px;
-}
-.margin{
-padding-top: 50px;
-padding-bottom: 50px;
-}
-.logoNav1{
-border-radius: 20px;
-border: 1px black;
-}
-p{
-color: white;
-}
-h3{
-color: white;
-}
-#parceiros{
-background-color: red;
+
+            p{
+    color: white;
+    }
+    h3{
+    color: white;
+    }
+                    
+.labelSide{
+    color: black;
+    
+    }
+    .contatosSide{
+        position: absolute;
+        left: 65px;
+        top: 55px;
+        margin: 10px;
+        font-size: 22px;
+        color: black;
+        }
+
+        #parceiros{
+            color: white;
+            background-color: red;
+            }
+
+            .collapse{
+                margin: 2px;
+                }
+
+                #imgSideBar{
+                    width: 25px;
+                    height: 25px; 
+                    }  
+
+                    .navbar{
+                        background-color:#28D2FF;
+                        }    
+
+                        .logoNav1{
+                            border-radius: 20px;
+                            border: 1px black;
+                            }
+
+                            .btn{
+                                width: 13vw;
+                                height: 4vw;
+                                color: white;
+                                font-size: 2vw;
+                                z-index: 2;
+                                }
+
+                                .margin{
+                                    padding-top: 40px;
+                                    padding-bottom: 50px;
+                                    }
+
+
+body{
+background-color:black;
+font:20px arial,serial-serif;
 }
 
 

@@ -30,7 +30,7 @@
                 .modal-content {
                         color: white;
                         width: 350px;
-                        background-color: black;
+                        background-color: #6DCAFC;
                 }
 
                 a {
@@ -49,7 +49,7 @@
 <body>
 
         <!--NAVBAR INICIO -->
-        <nav class="navbar navbar-expand-lg  shadow">
+        <nav class="navbar navbar-expand-lg  shadow text-center">
                 <a href="#"><img class="logoNav1" src="imagens/dafonteLogo.jpg" width="150px" height="130px"></a>
 
 
@@ -59,7 +59,7 @@
 
                         <button type="button" class="btn btn-secondary"><a href="#parceiros">Parceiros</a></button>
 
-                <!-- BOTÃO DO MODAL SIDEBAR-->
+                        <!-- BOTÃO DO MODAL SIDEBAR-->
                         <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
                                 class="btn btn-success">Contatos</button>
 
@@ -91,7 +91,7 @@
 
 
 
-       
+
         <!--SELECT DE LINKS ABAIXO DA NAVBAR ASSOCIADA A FUNÇÃO CHAGEFUNC PASSANDO VALUE JS-->
         <select id="link" onchange="changeFunc(value);" class="form-select text-center"
                 aria-label="enable select example" enable>
@@ -120,7 +120,7 @@
 
                 </div>
 
-     <!--DIVISÃO DO SITE EM SEÇÕES ESSA É DIVIDIDA CARROSSEL TRIPLO EM UMA UNIDA SESSÃO-->
+                <!--DIVISÃO DO SITE EM SEÇÕES ESSA É DIVIDIDA CARROSSEL TRIPLO EM UMA UNIDA SESSÃO-->
         </section>
 
         <section id="parceiros">
@@ -169,13 +169,18 @@
                                                 aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                        <label>Loja 01 Jaboatão-</label>
-                                        <b>(81)3518-5933</b>
+
+                                        <img id="imgSideBar"
+                                                src="C:/Users/DAFONTE/Documents/PROJETOS/Dafonte Site/Bootstrap/imagens/contato-telefonico.png">
+                                        <label class="labelSide">Loja 01 - Jaboatão</label>
+                                        </br></br>
+                                        <b class="contatosSide">(81)3518-5933</b>
+                                        <hr>
                                 </div>
                                 <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                                 data-bs-dismiss="modal">Fechar</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn btn-primary">Salvar</button>
                                 </div>
                         </div>
                 </div>
