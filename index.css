@@ -1,6 +1,8 @@
-
+.modal-title{
+color: white;
+}
 .quem-somos{
-    color: lightseagreen;
+    color: whitesmoke;
     background-image: url(../Bootstrap/imagens/roadLights.jpg);
     background-size: 720px 1080px;
     }
@@ -14,7 +16,7 @@ color: black;
     }
                     
 .labelSide{
-    color: black;
+    color: white;
     
     }
     .contatosSide{
@@ -23,7 +25,7 @@ color: black;
         top: 55px;
         margin: 10px;
         font-size: 22px;
-        color: black;
+        color: white;
         }
 
         #parceiros{
