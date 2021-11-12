@@ -39,8 +39,14 @@
                 }
 
                 select {
-                        background-color: #6DCAFC;
+
                         border: 5px black;
+                        width: 200px;
+                }
+
+                #backNavBar{
+                        background-color: darkblue;
+                        z-index: 2;
                 }
         </style>
 
@@ -49,7 +55,7 @@
 <body>
 
         <!--NAVBAR INICIO -->
-        <nav class="navbar navbar-expand-lg  shadow text-center">
+        <nav class="navbar navbar-expand-lg  shadow text-center navbarMenu">
                 <a href="#"><img class="logoNav1" src="imagens/dafonteLogo.jpg" width="150px" height="130px"></a>
 
 
@@ -90,18 +96,34 @@
         <!--NAVBAR FINAL-->
 
 
-
+        <nav class="navbar navbar-expand-lg  shadow text-center" id="backNavBar">
 
         <!--SELECT DE LINKS ABAIXO DA NAVBAR ASSOCIADA A FUNÇÃO CHAGEFUNC PASSANDO VALUE JS-->
         <select id="link" onchange="changeFunc(value);" class="form-select text-center"
                 aria-label="enable select example" enable>
-                <option selected>Conheça nossas opções</option>
+                <b><option selected>Nos conheça</option></b>
                 <option value="1">Nossa Historia</option>
                 <option value="2">Trabalhe Conosco</option>
                 <option value="3">Contatos</option>
         </select>
 
+        <select id="link2" onchange="changeFunc(value);" class="form-select text-center"
+                aria-label="enable select example" enable>
+                <option selected>Conheça nossas opções</option>
+                <option value="4">Nossa Historia</option>
+                <option value="5">Trabalhe Conosco</option>
+                <option value="6">Contatos</option>
+        </select>
 
+        <select id="link3" onchange="changeFunc(value);" class="form-select text-center"
+                aria-label="enable select example" enable>
+                <option selected>Conheça nossas opções</option>
+                <option value="7">Nossa Historia</option>
+                <option value="8">Trabalhe Conosco</option>
+                <option value="9">Contatos</option>
+        </select>
+
+        </nav>
         <!--DIVISÃO DO SITE EM SEÇÕES ESSA É A GRANDE CARROSSEL UNICO-->
         <section id="quem-somos">
                 <div class="container-fluid quem-somos text-center margin">

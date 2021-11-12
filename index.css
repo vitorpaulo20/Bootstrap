@@ -1,15 +1,14 @@
 
 .quem-somos{
-    color: white;
-    background-color: blue;
+    color: lightseagreen;
+    background-image: url(../Bootstrap/imagens/roadLights.jpg);
+    background-size: 720px 1080px;
     }
 h5{
 color: black;
 }
 
-            p{
-    color: white;
-    }
+  
     h3{
     color: white;
     }
@@ -41,9 +40,14 @@ color: black;
                     height: 25px; 
                     }  
 
-                    .navbar{
-                        background-color:#28D2FF;
-                        }    
+                    .navbarMenu{
+                        background-image: url(../Bootstrap/imagens/cidadeFosco.jpg);
+                        background-position-y: 60%;
+                        background-size: 100%,100px;
+                        z-index: 3;
+                       
+                        }  
+                        
 
                         .logoNav1{
                             border-radius: 20px;
