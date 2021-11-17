@@ -30,7 +30,18 @@ color: black;
 
         #parceiros{
             color: white;
+            padding-bottom: 180px;
           
+            }
+
+            .byPaulo{
+                color: whitesmoke;
+                background-color: black;
+                position: relative;
+                font-size: 16px;
+                top: 20px;
+                padding-bottom: -10px;
+
             }
 
             .collapse{
